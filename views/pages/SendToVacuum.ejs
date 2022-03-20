@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <title>VacuumDrop - Send Files to Vacuum</title>
+    <link rel="stylesheet" href="/css/SendToVacuum.css">
+    <link rel="stylesheet" href="/css/SendFromPhone.css">
+    <%- include('../partials/_header') %>
+
+</head>
+<body>
+<%- include('../partials/_navbar') %>
+<main>
+    <form id="FileForm" action="/SendDataToVacuum" method="post" enctype="multipart/form-data">
+        <h2 id="FormTitle">Send Files from Anywhere to Vacuum</h2>
+
+        <div class="FileFormFields">
+            <label for="BatchName">Name: </label>
+            <input type="text" name="BatchName" id="BatchName" required>
+        </div>
+        <div id="FileInputsDiv">
+            <div class="FileFormFields" id="FileInput-1">
+                <input type="file" name="File-1" id="File-1" class="File">
+            </div>
+        </div>
+
+        <button type="submit" id="Submit">Send</button>
+    </form>
+    <div class="FileFormFields">
+        <button onclick="AddFileInput()" id="AddNewFile"><img src="/Images/plus.png" width="25px"/> Add Another File</button>
+    </div>
+
+</main>
+<script src="/js/SendFromPhone.js"></script>
+<script src="/js/GetFromPC.js"></script>
+</body>
+</html>

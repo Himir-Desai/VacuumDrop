@@ -1,0 +1,21 @@
+<svg width="125" height="126" viewBox="0 0 125 126" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="VacuumX">
+<line id="CenterDownnX" x1="27.5" y1="110.5" x2="97.5" y2="110.5" stroke="#D90000" stroke-width="5" stroke-linecap="round"/>
+<line id="CenterDownX" x1="10.5" y1="89" x2="114.5" y2="89" stroke="#C8C800" stroke-width="6" stroke-linecap="round"/>
+<line id="CenterLineX" x1="3.5" y1="63" x2="121.5" y2="63" stroke="#00BB4B" stroke-width="7" stroke-linecap="round"/>
+<line id="CenterUpX" x1="10.5" y1="37" x2="114.5" y2="37" stroke="#00D0D0" stroke-width="6" stroke-linecap="round"/>
+<line id="CenterUppX" x1="27.5" y1="15.5" x2="97.5" y2="15.5" stroke="#0000C8" stroke-width="5" stroke-linecap="round"/>
+<g id="FileX">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M39 29V97.3636H86V48.2273L66.7727 29H39ZM64.6364 33.9848L80.303 49.6515H64.6364V33.9848Z" fill="#000000" opacity="0.7"/>
+<path d="M39 97.3636H38.5C38.5 97.6398 38.7239 97.8636 39 97.8636V97.3636ZM39 29V28.5C38.7239 28.5 38.5 28.7239 38.5 29H39ZM86 97.3636V97.8636C86.2761 97.8636 86.5 97.6398 86.5 97.3636H86ZM86 48.2273H86.5C86.5 48.0947 86.4473 47.9675 86.3536 47.8737L86 48.2273ZM66.7727 29L67.1263 28.6464C67.0325 28.5527 66.9053 28.5 66.7727 28.5V29ZM80.303 49.6515V50.1515C80.5053 50.1515 80.6876 50.0297 80.765 49.8429C80.8424 49.656 80.7996 49.441 80.6566 49.298L80.303 49.6515ZM64.6364 33.9848L64.9899 33.6313C64.8469 33.4883 64.6319 33.4455 64.445 33.5229C64.2582 33.6003 64.1364 33.7826 64.1364 33.9848H64.6364ZM64.6364 49.6515H64.1364C64.1364 49.9277 64.3602 50.1515 64.6364 50.1515V49.6515ZM39.5 97.3636V29H38.5V97.3636H39.5ZM86 96.8636H39V97.8636H86V96.8636ZM85.5 48.2273V97.3636H86.5V48.2273H85.5ZM66.4192 29.3536L85.6464 48.5808L86.3536 47.8737L67.1263 28.6464L66.4192 29.3536ZM39 29.5H66.7727V28.5H39V29.5ZM80.6566 49.298L64.9899 33.6313L64.2828 34.3384L79.9495 50.0051L80.6566 49.298ZM64.6364 50.1515H80.303V49.1515H64.6364V50.1515ZM64.1364 33.9848V49.6515H65.1364V33.9848H64.1364Z" fill="#bfbfbf"/>
+</g>
+<circle id="CircleX" cx="62.5" cy="63" r="60" fill="url(#paint0_radial_0_1)" stroke="black" stroke-width="5"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_0_1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(62.5 63) rotate(90) scale(62.5)">
+<stop stop-color="white" stop-opacity="0"/>
+<stop offset="0.916667"/>
+<stop offset="1"/>
+</radialGradient>
+</defs>
+</svg>

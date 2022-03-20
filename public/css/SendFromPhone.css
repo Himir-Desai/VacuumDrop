@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#FileForm{
+    width: 90vw;
+    margin: 5vh auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#FormTitle{
+    font-family: 'Redressed', cursive;
+    text-align: center;
+    font-size: 2vmax;
+    padding: 20px;
+}
+
+.FileFormFields{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.FileFormFields > label{
+    width: 40%;
+    font-family: "Oswald", sans-serif;
+    font-size: 2vmax;
+}
+
+.FileFormFields > #BatchName{
+    width: 60%;
+    font-family: "Oswald", sans-serif;
+    font-size: 2vmax;
+}
+
+#FileInput{
+    width: 100%;
+}
+
+.File{
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5vmax;
+    padding: 20px 0;
+}
+
+#Submit{
+    outline: none;
+    background-color: #45b367;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 2.25vmax;
+    font-family: "Oswald", sans-serif;
+    width: 60%;
+    color: white;
+    margin: auto;
+}
+
+#AddNewFile{
+    outline: none;
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1.5vmax;
+    width: 35%;
+    font-family: "Oswald", sans-serif;
+}
+
+#AddNewFile > img{
+    filter: invert();
+}

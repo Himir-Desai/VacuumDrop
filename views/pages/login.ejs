@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>VacuumDrop - Login to Authenticate</title>
+    <link rel="stylesheet" href="/css/login.css">
+    <%- include('../partials/_header') %>
+
+</head>
+<body>
+<%- include('../partials/_navbar') %>
+<form id="LoginForm" method="post" action="/Login">
+    <div class="LoginFormFields">
+        <label for="Password">Server Password: </label>
+        <input type="password" name="Password" id="Password" placeholder="default password is admin" required>
+    </div>
+    <div class="LoginFormFields">
+        <input type="submit" id="Submit" value="Authenticate">
+    </div>
+    <div id="PasswordIncorrectDiv">
+        <p id="PasswordIncorrect">
+            Entered Password is Incorrect
+        </p>
+    </div>
+</form>
+
+<script src="/js/login.js"></script>
+</body>
+</html>

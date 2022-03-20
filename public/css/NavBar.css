@@ -1,0 +1,67 @@
+#NavBar{
+    display: flex;
+    height: max(8vmax, 15vh);
+    background-color: #E0EAFF;
+    opacity: 95%;
+    border-radius: 15px;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+html{
+    background-color: #F1EDFF;
+}
+
+#NavBar > a{
+    display: flex;
+    height: max(8vmax, 15vh);
+    text-decoration: none;
+    align-items: center;
+}
+
+#NavBar > a > img{
+    height: max(7vmax, 13vh);
+    padding:  max(0.5vmax, 1vh);
+}
+
+#NavBar > a > h1{
+    font-size: max(5vmax, 11vh);
+    align-self: center;
+    font-family: 'Redressed', cursive;
+    color: #000000;
+    padding: 0 1vmax;
+}
+
+#LogOut{
+    margin: 2vmax;
+    height: max(3vmax, 6vh);
+    width: 7.5vw;
+    border-radius: 15px;
+    background-color: #F8E0FF;
+    font-family: "Oswald", sans-serif;
+    font-size: max(1.5vmax, 3vh);
+    color: black;
+}
+
+@media only screen and (max-width: 1300px){
+    #NavBar > a > h1{
+        font-size: 5vmax;
+    }
+
+    #NavBar > a > img{
+        height: 6vmax;
+    }
+
+    #NavBar{
+        height: 8vmax;
+    }
+
+    #LogOut{
+        margin: 0.5vmax;
+        height: 4vmax;
+        width: 14vw;
+        font-size: 2vmax;
+    }
+}
+

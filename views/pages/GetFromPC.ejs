@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>VacuumDrop - Quickly Share Files to your PC</title>
+    <%- include('../partials/_header') %>
+    <link rel="stylesheet" href="/css/GetFromPC.css">
+</head>
+<body>
+<%- include('../partials/_navbar') %>
+<%
+let folder_number = 1;
+for (let x in VacuumFiles['Vacuum']) {
+    if (typeof(VacuumFiles['Vacuum'][x]) == 'object'){
+        let myObject = JSON.parse(JSON.stringify(VacuumFiles['Vacuum'][x]))
+        for (x in myObject){
+            %><div class="Folder" id="Folder-<%= folder_number%>"><%
+            %><p><%= x%><button class="FolderButton" onclick="open_close_folder(<%= folder_number%>)">
+                <img id="Arrow-<%= folder_number%>" src="/Images/Arrow.png">
+            </button></p><%
+            for (y in myObject[x]){
+                %><a class="FileLink Disappear-<%= folder_number%>" href="/<%= x%>/<%= myObject[x][y]%>" target="_blank"><%= myObject[x][y]%></a><%
+            }
+            %></div><%
+            folder_number++;
+        }
+    }
+}
+%>
+<script src="/js/GetFromPC.js"></script>
+</body>
+</html>

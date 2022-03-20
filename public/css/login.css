@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #F1EDFF;
+}
+
+#LoginForm{
+    width: 35vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #DACCE8;
+    margin: 2vmax auto;
+    padding: 2.5vw;
+    border-radius: 10px;
+}
+
+.LoginFormFields{
+    display: flex;
+    width: 90%;
+    margin: 15px 0;
+}
+
+.LoginFormFields > label{
+    display: block;
+    width: 45%;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.25vmax;
+}
+
+.LoginFormFields > input{
+    display: block;
+    width: 55%;
+    font-family: "Oswald", sans-serif;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 1vmax;
+    background-color: white;
+}
+
+#Submit{
+    width: 75%;
+    margin: 0 auto;
+    background-color: azure;
+    font-family: "Oswald", sans-serif;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.25vmax;
+}
+
+#Submit:hover{
+    background-color: #67ffa7;
+}
+
+#PasswordIncorrectDiv{
+    display: none;
+    background-color: #ff7575;
+    border-radius: 10px;
+    justify-content: center;
+    width: 75%;
+}
+
+#PasswordIncorrect{
+    font-family: "Oswald", sans-serif;
+    color: white;
+    padding: 5px 10px;
+}
+
+@media only screen and (max-width: 1000px){
+    #NavBar > h1{
+        font-size: 5rem;
+    }
+
+    #LoginForm{
+        width: 80vw;
+    }
+
+    .LoginFormFields > label{
+        margin: 10px;
+        font-size: 2vmax;
+    }
+
+    #Submit{
+        width: 60vw;
+    }
+}

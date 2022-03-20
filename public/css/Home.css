@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    background-color: #F1EDFF;
+}
+
+#SelectFromDiv{
+    display: flex;
+}
+
+.SelectFrom{
+    width: 100%;
+    margin: 25px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#SendFilesFromPhone{
+    background-color: #45b367;
+}
+
+
+#SendFilesFromPC{
+    background-color: #FFB367;
+}
+
+#GetFilesFromPC{
+    background-color: #8CDDFF;
+}
+
+.SelectFromLinks{
+    text-decoration: none;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.15vw;
+    padding: 15px;
+}
+
+.SelectFromLinks > svg{
+    width: 100%;
+}
+
+#Arrow11{
+    transform: translate(478px, 298px) rotate(0deg);
+    animation: linear Rotate1 2s infinite;
+}
+
+#Arrow21{
+    transform: translate(478px, 297px) rotate(0deg);
+    animation: linear Rotate2 2s infinite;
+    animation-delay: -1s;
+}
+
+#Arrow2{
+    transform: translate(478px, 294.111px) rotate(0deg);
+    animation: linear Rotate3 1s infinite;
+}
+
+#Arrow3{
+    transform: translate(478px, 298px) rotate(0deg);
+    animation: linear Rotate3 1s infinite;
+}
+
+#Arrow11_2{transform: translate(-478px, -298px);}
+
+#Arrow21_2{transform: translate(-478px, -297px);}
+
+#Arrow2_2{transform: translate(-478px, -294.111px);}
+
+#Arrow3_2{transform: translate(-478px, -298px);}
+
+@keyframes Rotate1{
+
+    from{
+        transform: translate(478px, 298px) rotate(130deg);
+    }
+    to{
+        transform: translate(478px, 298px) rotate(-30deg);
+    }
+}
+
+@keyframes Rotate2 {
+    from{
+        transform: translate(478px, 297px) rotate(60deg);
+    }
+    to{
+        transform: translate(478px, 297px) rotate(-100deg);
+    }
+}
+
+@keyframes Rotate3 {
+    from{
+        transform: translate(478px, 294.111px) rotate(-20deg);
+    }
+    to{
+        transform: translate(478px, 294.111px) rotate(50deg);
+    }
+}
+
+@media only screen and (max-aspect-ratio: 2/3){
+    #SelectFromDiv {
+        flex-wrap: wrap;
+    }
+    .SelectFromLinks{
+        font-size: 3.5vw;
+    }
+}

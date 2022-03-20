@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    background-color: #F1EDFF;
+}
+
+.Folder{
+    background: #CCCEE8;
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 1% 0;
+}
+
+.Folder > p{
+    margin: 1% 4%;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.25vw;
+}
+
+.FileLink{
+    text-decoration: none;
+    margin: 1% 8%;
+    padding: 0.5%;
+    border-radius: 5px;
+    color: blue;
+    background-color: #00000015;
+    display: none;
+}
+
+.FolderButton{
+    background-color: #00000000;
+    float: right;
+    border: none;
+}
+
+.FolderButton > img{
+    height: 1.25vw;
+    filter: invert();
+    transition: transform 0.8s cubic-bezier(0.48, -0.84, 0.08, 2);
+    transform: rotate(0deg);
+}
+
+@media only screen and (max-aspect-ratio: 2/3){
+    .Folder {
+        width: 90%;
+    }
+
+    .Folder > p{
+        font-size: 5vw;
+    }
+
+    .Folder > a {
+        margin: 2% 8%;
+    }
+
+    .FolderButton > img{
+        height: 5vw;
+    }
+
+    .FolderButton{
+        margin: 1% 2%;
+    }
+}

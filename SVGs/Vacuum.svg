@@ -1,0 +1,18 @@
+<svg width="125" height="126" viewBox="0 0 125 126" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="VacuumX">
+<line id="CenterDownnX" x1="27.5" y1="110.5" x2="97.5" y2="110.5" stroke="#D90000" stroke-width="5" stroke-linecap="round"/>
+<line id="CenterDownX" x1="10.5" y1="89" x2="114.5" y2="89" stroke="#C8C800" stroke-width="6" stroke-linecap="round"/>
+<line id="CenterLineX" x1="3.5" y1="63" x2="121.5" y2="63" stroke="#00BB4B" stroke-width="7" stroke-linecap="round"/>
+<line id="CenterUpX" x1="10.5" y1="37" x2="114.5" y2="37" stroke="#00D0D0" stroke-width="6" stroke-linecap="round"/>
+<line id="CenterUppX" x1="27.5" y1="15.5" x2="97.5" y2="15.5" stroke="#0000C8" stroke-width="5" stroke-linecap="round"/>
+<circle id="CircleX" cx="62.5" cy="63" r="60" fill="url(#paint0_radial_0_1)" stroke="black" stroke-width="5"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_0_1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(62.5 63) rotate(90) scale(62.5)">
+<stop stop-color="white" stop-opacity="0"/>
+<stop offset="0.375" stop-color="#979797" stop-opacity="0.15"/>
+<stop offset="0.916667"/>
+<stop offset="1"/>
+</radialGradient>
+</defs>
+</svg>

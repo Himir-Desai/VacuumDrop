@@ -1,0 +1,31 @@
+{
+  "name": "VacuumDrop 1.0",
+  "bin": "startup.js",
+  "version": "1.0.0",
+  "description": "VacuumDrop is a fast file transfer utility",
+  "main": "startup.js",
+  "scripts": {
+    "start": "node startup.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pkg": {
+    "assets": [
+      "public/**/*",
+      "SVGs/**/*",
+      "views/**/*"
+    ],
+    "output": "VacuumDrop"
+  },
+  "keywords": [],
+  "author": "Himir Desai",
+  "license": "",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "colors": "^1.4.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "formidable": "^2.0.1",
+    "pkg": "^5.5.2",
+    "readline-sync": "^1.4.10"
+  }
+}
