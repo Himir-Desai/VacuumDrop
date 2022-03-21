@@ -1,3 +1,57 @@
 # VacuumDrop
 
-VacuumDrop is an app which can be used to share files across devices in a Local Network. It can also be used as local cloud as the device running VacuumDrop serves the `Vacuum` folder and all its contents are accessible to all the devices in the network.
+VacuumDrop is an app which can be used to share files across devices in a Local Network. It can also be used to turn your computer into a local cloud, as the device running VacuumDrop serves the `Vacuum` folder and all its contents are accessible to all the devices in the network.
+
+## Index
+
+1. [Getting Started](#GettingStarted)
+2. [How it works?](#Working)
+3. [Sending files to PC](#SendingToPC)
+4. [Saving files in Vacuum](#SendingToVacuum)
+5. [Accessing Vacuum](#GettingFromVacuum)
+
+<h2 name="GettingStarted">Getting Started</h2>
+
+Download this Project as a zip from GitHub and unzip it. Now run the executable for your System. 
+
+![](/README_Images/executable.png)
+
+Now type 1 and press enter to start VacuumDrop.
+
+![](/README_Images/start.png)
+
+Opening the link in any web browser takes you to VacuumDrop Login page. Default password is admin. Password can be changed by entering 2 after running VacuumDrop executable.
+
+![](/README_Images/VacuumDropLogin.png)
+
+![](/README_Images/VacuumDropHome.png)
+
+
+Note: all executables are for x64 architecture (64bit systems).
+
+<h2 name="Working">How it Works?</h2>
+
+When you start VacuumDrop on your PC it starts running a server which hosts a web app. When you send the Files from other devices to your PC, it is done through HTML forms (and is not encrypted but the files never leave your network) and when you uploads files to Vacuum, which is also through a HTML form, saves the Files in the `Vacuum` folder. All the files in Vacuum are served statically so while accessing the Vacuum you directly download the files.
+
+<h2 name="SendingToPC">Sending Files to PC</h2>
+
+1. Goto VacuumDrop using the link below on other devices.
+2. Then click on **SEND FILES FROM PHONE/NON-SERVER PC TO SERVER PC**
+
+![](/README_Images/SendToPC.png)
+
+3. Now enter Batch Name, i.e., the name of the folder where your files will be saved.
+4. Add the Files and click on **Send**.
+
+<h2 name="SendingToVacuum">Saving Files in Vacuum</h2>
+
+1. Goto VacuumDrop using the link below on this PC and other devices.
+2. Then click on **SEND FILES FROM THE SERVER PC VACUUM**
+
+![](/README_Images/SendToVacuum.png)
+
+3. Now enter the Batch Name, i.e., the name of the folder in Vacuum where your files will be saved.
+4. Add the Files and click on **Send**.
+
+
+<h2 name="GettingFromVacuum">Accessing Vacuum</h2>
