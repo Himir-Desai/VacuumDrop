@@ -22,9 +22,7 @@ Now type 1 and press enter to start VacuumDrop.
 
 Opening the link in any web browser takes you to VacuumDrop Login page. Default password is admin. Password can be changed by entering 2 after running VacuumDrop executable.
 
-![](/README_Images/VacuumDropLogin.png)
-
-![](/README_Images/VacuumDropHome.png)
+<img src="/README_Images/VacuumDropLogin.png" width="49%">_<img src="/README_Images/VacuumDropHome.png" width ="49%">
 
 
 Note: all executables are for x64 architecture (64bit systems).
@@ -35,23 +33,29 @@ When you start VacuumDrop on your PC it starts running a server which hosts a we
 
 <h2 name="SendingToPC">Sending Files to PC</h2>
 
-1. Goto VacuumDrop using the link below on other devices.
+1. Goto VacuumDrop using the link on other devices.
 2. Then click on **SEND FILES FROM PHONE/NON-SERVER PC TO SERVER PC**
 
-![](/README_Images/SendToPC.png)
+<img src="README_Images/SendToPC.png" width="60%">
 
 3. Now enter Batch Name, i.e., the name of the folder where your files will be saved.
 4. Add the Files and click on **Send**.
 
 <h2 name="SendingToVacuum">Saving Files in Vacuum</h2>
 
-1. Goto VacuumDrop using the link below on this PC and other devices.
+1. Goto VacuumDrop using the link on PC and other devices.
 2. Then click on **SEND FILES FROM THE SERVER PC VACUUM**
 
-![](/README_Images/SendToVacuum.png)
+<img src="README_Images/SendToVacuum.png" width="60%">
 
 3. Now enter the Batch Name, i.e., the name of the folder in Vacuum where your files will be saved.
 4. Add the Files and click on **Send**.
 
 
 <h2 name="GettingFromVacuum">Accessing Vacuum</h2>
+
+1. Goto VacuumDrop using the link on other devices.
+2. Then click on **GET FILES FROM VACUUM**
+3. Select the folder and click on the File to download it.
+
+<img src="/README_Images/GetFromVacuum.png" width="60%">
