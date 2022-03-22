@@ -281,17 +281,17 @@ function StartServer(){
     // SERVER //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     app.listen(port, ()=>{
-        let ip = os.networkInterfaces();
 
-        for (let item in ip['Wi-Fi']){
-            if (ip['Wi-Fi'][item]['family'] == 'IPv4'){
-                ip_address = ip['Wi-Fi'][item]['address'];
-            }
+        var address,
+        ifaces = require('os').networkInterfaces();
+        for (var dev in ifaces) {
+            ifaces[dev].filter((details) => details.family === 'IPv4' && details.internal === false ? address = details.address: undefined);
         }
 
         PrintVacuumDrop()
         PrintInstructions()
-        console.log("Goto " +"http://".underline + ip_address.underline + ":".underline + port.toString().underline + "/".underline + " in any web browser")
+
+        console.log("Goto " + ("http://" + address + ":" + port.toString() + "/").cyan.bold.underline + " in any web browser")
         console.log("in your phone or any other device to use VacuumDrop.")
     })
 }
