@@ -12,7 +12,24 @@ VacuumDrop is an app which can be used to share files across devices in a Local 
 
 <h2 name="GettingStarted">Getting Started</h2>
 
-Download this Project as a zip from GitHub and unzip it. Now run the executable for your System. 
+[Download](https://github.com/Himir-Desai/VacuumDrop/releases/tag/v1.0.0) and run the latest release from GitHub for your System (win for Windows and linux for linux systems). 
+
+<details>
+  <summary>Linux installation guide</summary>
+  
+  
+  To run VacuumDrop on linux operating systems download the linux executable. Now open the folder where you downloaded in the terminal and enter the following. (You will have to typw this only one.)
+  
+  ```console
+  user@linux-pc:~$ sudo chmod +x ./"VacuumDrop 1-linux"
+  ```
+  Now to start VacuumDrop enter the following in terminal. (Yiu will need to type this everytime you want to run VacuumDrop so copy paste it into a txt file)
+  
+  ```console
+  user@linux-pc:~$ sudo ./"VacuumDrop 1-linux"
+  ```
+  
+</details>
 
 ![](/README_Images/executable.png)
 
