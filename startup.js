@@ -27,13 +27,15 @@ function StartUp() {
     console.log("What do you want to do?".italic)
     console.log("    1. Start VacuumDrop.")
     console.log("    2. Change Password.\n")
+    
+    if(!fs.existsSync(VacuumDropLoc)) 
+        fs.mkdir(VacuumDropLoc, ()=>{})
+        
+    if(!fs.existsSync(path.join(VacuumDropLoc, 'Vacuum')))
+        fs.mkdir(path.join(VacuumDropLoc, 'Vacuum'), ()=>{}) 
 
-    if(!fs.existsSync(VacuumDropLoc)) { fs.mkdir(VacuumDropLoc, ()=>{}) }
-    if(!fs.existsSync(path.join(VacuumDropLoc, 'Vacuum'))) { fs.mkdir(path.join(VacuumDropLoc, 'Vacuum'), ()=>{}) }
-
-    if (!fs.existsSync(path.join(VacuumDropLoc, 'Password.psw'))){
+    if (!fs.existsSync(path.join(VacuumDropLoc, 'Password.psw')))
         fs.writeFileSync(path.join(VacuumDropLoc, 'Password.psw'), 'admin')
-    }
 
     while (true) {
         UserWish = parseInt(readline.question("Please enter 1 or 2: "));
